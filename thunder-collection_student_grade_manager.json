@@ -1,0 +1,69 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "student_grade_manager",
+    "collectionId": "e1c291a1-daf7-4fc2-a1b1-dc57915ecb13",
+    "dateExported": "2024-06-02T18:36:04.189Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "1ffec980-65c3-4b48-83b2-7c9ab365c9db",
+            "colId": "e1c291a1-daf7-4fc2-a1b1-dc57915ecb13",
+            "containerId": "",
+            "name": "http://localhost:3000/grades",
+            "url": "http://localhost:3000/grades",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-06-02T00:18:35.067Z",
+            "modified": "2024-06-02T00:18:35.067Z",
+            "headers": []
+        },
+        {
+            "_id": "057ac02a-2134-4281-a5aa-da97c9b50e26",
+            "colId": "e1c291a1-daf7-4fc2-a1b1-dc57915ecb13",
+            "containerId": "",
+            "name": "http://localhost:3000/grades",
+            "url": "http://localhost:3000/grades",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-06-02T00:18:40.139Z",
+            "modified": "2024-06-02T18:31:05.383Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{ \n  \"studentName\": \"Julia\", \n  \"subject\": \"English\", \n  \"grade\": \"10\" \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "39d9695b-7fdb-47a5-9313-3aa6548001e9",
+            "colId": "e1c291a1-daf7-4fc2-a1b1-dc57915ecb13",
+            "containerId": "",
+            "name": "http://localhost:3000/grades",
+            "url": "http://localhost:3000/grades/5add0cbd-9dd8-411c-9c1d-b0cd845d5f44",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-06-02T00:22:55.878Z",
+            "modified": "2024-06-02T00:26:50.544Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{ \n  \"studentName\": \"Thiago Lima\", \n  \"subject\": \"English\", \n  \"grade\": \"8\" \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "19c13af4-4998-42e7-93dc-86d8892c7b3f",
+            "colId": "e1c291a1-daf7-4fc2-a1b1-dc57915ecb13",
+            "containerId": "",
+            "name": "http://localhost:3000/grades",
+            "url": "http://localhost:3000/grades/12b239e6-8694-4c8e-b9fa-fa264bd92b54",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-06-02T00:27:51.728Z",
+            "modified": "2024-06-02T00:28:21.770Z",
+            "headers": []
+        }
+    ],
+    "ref": "FQ-bI6PAOXL-4T6IMY7SP-elRpgxa1BvhHCvAGWAxG4MDVoWXhFU5wx_wViPI2JyIcsaaB26UrZTxkoIz3ceqg"
+}
